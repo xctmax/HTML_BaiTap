@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.row {
+    position: relative;
+    margin: 20px 0;
+}
+
+.row>img {
+    position: absolute;
+    width: 20%;
+    height: 140px;
+}
+
+.row>.box {
+    position: absolute;
+    width: 75%;
+    left: 220px;
+}
+
+.box>h4 {
+    margin: 30px 0;
+    color: rgb(36, 122, 235);
+    font-weight: bold;
+}
+
+.box>p {
+    margin-top: 10px;
+    color: #505050c2;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*  */
+
+.row_2 {
+    position: relative;
+    margin: 190px 0;
+}
+
+.row_2>img {
+    position: absolute;
+    width: 20%;
+    height: 140px;
+}
+
+.row_2>.box_2 {
+    position: absolute;
+    width: 75%;
+    left: 220px;
+}
+
+.box_2>h4 {
+    margin: 30px 0;
+    color: rgb(36, 122, 235);
+    font-weight: bold;
+}
+
+.box_2>p {
+    margin-top: 10px;
+    color: #505050c2;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*  */
+
+.row_3 {
+    position: relative;
+    margin: 360px 0;
+}
+
+.row_3>img {
+    position: absolute;
+    width: 20%;
+    height: 140px;
+}
+
+.row_3>.box_3 {
+    position: absolute;
+    width: 75%;
+    left: 220px;
+}
+
+.box_3>h4 {
+    margin: 30px 0;
+    color: rgb(36, 122, 235);
+    font-weight: bold;
+}
+
+.box_3>p {
+    margin-top: 10px;
+    color: #505050c2;
+    font-size: 15px;
+    font-weight: 500;
+}
